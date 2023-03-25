@@ -1,0 +1,68 @@
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  nav {
+    margin-left: 2rem;
+  }
+  
+  nav input[type="text"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  nav button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Main styles */
+  main {
+    margin: 2rem;
+  }
+  
+  .book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .book-container img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .book-container a {
+    font-size: 1.5rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  

@@ -1,0 +1,67 @@
+
+
+/* Basic styling for header and footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Styling for the search bar */
+  nav form {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  nav input[type="text"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  nav button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  /* Styling for the book container */
+  .book-container {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .book-container img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .book-container a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #010000;
+    font-weight: bold;
+    background-color: #878383;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(5, 4, 4, 0.3);
+  }
+  
+  .book-container a:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Basic styling for the website */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  main {
+    margin: 20px;
+  }
